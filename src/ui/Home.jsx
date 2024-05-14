@@ -7,7 +7,7 @@ import ButtonDemo from "./ButtonDemo";
 
 function Home() {
   return (
-    <div className="flex h-full flex-col items-center justify-center p-6">
+    <div className="flex h-full flex-col items-center justify-center  p-6">
       <div className="mb-4 h-24 w-24 rounded-full border-[2.5px] border-stone-700  opacity-75">
         <img src={avatar} alt="Profile" className="pl-2" />
       </div>
