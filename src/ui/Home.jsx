@@ -40,7 +40,9 @@ function Home() {
           <Link to="/projects">Projects</Link>
         </ButtonDemo>
         <ButtonDemo>
-          <Link to="/resume">Resume</Link>
+          <a href="/CV_2024.pdf" target="_blank" rel="noopener noreferrer">
+            Resume
+          </a>
         </ButtonDemo>
       </div>
     </div>

@@ -12,7 +12,9 @@ function Header() {
           About
         </Link>
         <Link to="/projects">Projects</Link>
-        <Link to="/resume">Resume</Link>
+        <a href="/CV_2024.pdf" target="_blank" rel="noopener noreferrer">
+          Resume
+        </a>
       </div>
     </header>
   );
