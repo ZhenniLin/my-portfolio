@@ -32,8 +32,9 @@ const projects = [
     date: "12-2023",
     skills: [
       { icon: faReact, color: "blue" },
-      { icon: "redux.svg", color: "orange" },
-      { icon: "tailwindcss.svg", color: "teal" },
+      { icon: "vite.svg" },
+      { icon: "redux.svg" },
+      { icon: "tailwindcss.svg" },
     ],
   },
   {
@@ -45,6 +46,19 @@ const projects = [
     skills: [
       { icon: faHtml5, color: "red" },
       { icon: faCss3Alt, color: "blue" },
+    ],
+  },
+  {
+    name: "My Portfolio",
+    subname: "Zhenni's Portfolio",
+    img: "myportfolio.png",
+    imgsrc: "https://zhennilin-portfolio.netlify.app/",
+    date: "05-2024",
+    skills: [
+      { icon: faReact, color: "blue" },
+      { icon: "vite.svg" },
+      { icon: "tailwindcss.svg" },
+      { icon: "nextui.svg" },
     ],
   },
 ];
