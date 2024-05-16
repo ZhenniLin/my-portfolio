@@ -5,7 +5,6 @@ import {
   faHtml5,
   faCss3Alt,
   faJsSquare,
-  faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
 import CardItem from "./CardItem";
@@ -19,9 +18,9 @@ const projects = [
     date: "10-2023",
 
     skills: [
-      { icon: faHtml5, color: "red" },
-      { icon: faCss3Alt, color: "blue" },
-      { icon: faJsSquare, color: "yellow" },
+      { icon: faHtml5, color: "text-red-500" },
+      { icon: faCss3Alt, color: "text-blue-500" },
+      { icon: faJsSquare, color: "text-yellow-500" },
     ],
   },
   {
@@ -31,10 +30,11 @@ const projects = [
     imgsrc: "https://mapty-zhennilin.netlify.app/",
     date: "12-2023",
     skills: [
-      { icon: faReact, color: "blue" },
+      { icon: "react.svg" },
       { icon: "vite.svg" },
       { icon: "redux.svg" },
       { icon: "tailwindcss.svg" },
+      { icon: "react-router.svg" },
     ],
   },
   {
@@ -44,8 +44,14 @@ const projects = [
     imgsrc: "https://wild-oasis-zhennilin.netlify.app/login",
     date: "02-2024",
     skills: [
-      { icon: faHtml5, color: "red" },
-      { icon: faCss3Alt, color: "blue" },
+      { icon: "react.svg" },
+      { icon: "vite.svg" },
+      { icon: "react-query.svg" },
+      { icon: "react-router.svg" },
+      { icon: "styled-components.svg" },
+      { icon: "supabase.svg" },
+      { icon: "react-hook-form.svg" },
+      { icon: "date.png" },
     ],
   },
   {
@@ -55,9 +61,10 @@ const projects = [
     imgsrc: "https://zhennilin-portfolio.netlify.app/",
     date: "05-2024",
     skills: [
-      { icon: faReact, color: "blue" },
+      { icon: "react.svg" },
       { icon: "vite.svg" },
       { icon: "tailwindcss.svg" },
+      { icon: "react-router.svg" },
       { icon: "nextui.svg" },
     ],
   },
