@@ -55,6 +55,21 @@ const projects = [
     ],
   },
   {
+    name: "Boardy",
+    subname: "Real-Time Board",
+    img: "boardy.png",
+    imgsrc: "https://board-clone.vercel.app/",
+    date: "06-2024",
+    skills: [
+      { icon: "react.svg" },
+      { icon: "nextjs.svg" },
+      { icon: "typescript.svg" },
+      { icon: "clerk.svg" },
+      { icon: "liveblocks.png" },
+      { icon: "convex.png" },
+    ],
+  },
+  {
     name: "My Portfolio",
     subname: "Zhenni's Portfolio",
     img: "myportfolio.png",
