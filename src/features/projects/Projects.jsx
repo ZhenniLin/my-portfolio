@@ -50,8 +50,6 @@ const projects = [
       { icon: "react-router.svg" },
       { icon: "styled-components.svg" },
       { icon: "supabase.svg" },
-      { icon: "react-hook-form.svg" },
-      { icon: "date.png" },
     ],
   },
   {
@@ -61,12 +59,13 @@ const projects = [
     imgsrc: "https://board-clone.vercel.app/",
     date: "06-2024",
     skills: [
-      { icon: "react.svg" },
-      { icon: "nextjs.svg" },
       { icon: "typescript.svg" },
+      { icon: "nextjs.svg" },
+      { icon: "tailwindcss.svg" },
       { icon: "clerk.svg" },
       { icon: "liveblocks.png" },
       { icon: "convex.png" },
+      // { icon: "shadcn.svg" },
     ],
   },
   {
