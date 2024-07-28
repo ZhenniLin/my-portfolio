@@ -36,6 +36,7 @@ const projects = [
       { icon: "tailwindcss.svg" },
       { icon: "react-router.svg" },
     ],
+    details: "TBA: deployment issues😢",
   },
   {
     name: "The Wild Oasis",
@@ -51,6 +52,7 @@ const projects = [
       { icon: "styled-components.svg" },
       { icon: "supabase.svg" },
     ],
+    details: "Email&Password: test@test.com",
   },
   {
     name: "Boardy",
@@ -98,6 +100,7 @@ function Projects() {
             imgsrc={project.imgsrc}
             date={project.date}
             skills={project.skills}
+            details={project.details}
           />
         ))}
       </div>
